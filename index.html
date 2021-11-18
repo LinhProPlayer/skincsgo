@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <link rel="icon" href="./image/logo/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./css/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>TOTOSHOP-Shop Quần Áo Số 1 Việt Nam</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo-main">
+                <a href="/" id="home">
+                    <img src="./image/logo/logo.jpg" alt="">
+                </a>
+            </div>
+            <div class="icons">
+                <div class="icon"><i class="far fa-user-circle"></i></div>
+                <label for="search-btn-pc-cb" id="search-item" class="icon"><i class="fas fa-search"></i></label>
+                <div class="icon"><i class="far fa-heart"></i></div>
+                <div class="icon bag"><i class="ti-bag"></i>
+                    <div class="number-sp">
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#new-arrivals" class="item-link">new arrivals</a></li>
+                    <li class="menu-item"><a href="#do-nam" class="item-link">đồ nam</a></li>
+                    <li class="menu-item"><a href="#do-nu" class="item-link">đồ nữ</a></li>
+                    <li class="menu-item"><a href="#do-doi" class="item-link">đồ đôi</a></li>
+                    <li class="menu-item"><a href="#ao-khoac" class="item-link">áo khoác</a></li>
+                    <li class="menu-item"><a href="#phu-kien" class="item-link">phụ kiện</a></li>
+                    <li class="menu-item hot-pc"><a href="#sale-black" class="item-link">sale black friday</a>
+                        <div class="hot"><p>Hot</p></div>
+                    </li>
+                    <li class="menu-item"><a href="#chinh-sach" class="item-link">chính sách</a></li>
+                    <li class="menu-item hot-pc"><a href="#toto-fanzone" class="item-link">toto fanzone</a>
+                        <div class="hot"><p>Hot</p></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hotline">
+                <div class="sdt">
+                    <a href="#" class="phone">
+                        <i class="fas fa-phone-volume"></i>
+                        <p class="number">1900 633 501</p>
+                    </a>
+                </div>
+
+                <div class="mxh">
+                    <a href="https://www.facebook.com/Totoshop.com.vn/" class="link-mxh"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCNlOKoeutijiatYxUkDXGnA" class="link-mxh"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/totoshopvn" class="link-mxh"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-mobile">
+            <div class="navbar-mb">
+                <label for="sidebar-btn" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <div class="logo-mb">
+                    <a href=""><img src="./image/logo/logo.jpg" alt=""></a>
+                </div>
+
+                <div class="icons-mb">
+                    <label for="search-btn-mb-cb" class="icon-mb"><i class="fas fa-search"></i></label>
+                    <div class="icon-mb"><i class="far fa-heart"></i></i></div>
+                    <div class="icon-mb tibag-mb"><i class="ti-bag"></i>
+                        <div class="number-sp-mb">
+                            <p>0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="checkbox" class="input-menu" id="sidebar-btn">
+            <label for="sidebar-btn" class="overlay-mb"></label>
+            <div class="sidebar">
+                <div class="logo-main-mb">
+                    <a href="/" id="home">
+                        <img src="./image/logo/logo.jpg" alt="">
+                        <div class="hot"><p>Hot</p></div>
+                    </a>
+                </div>
+                <div class="icons">
+                    <div class="icon"><i class="far fa-user-circle"></i></div>
+                    <div class="icon"><i class="far fa-heart"></i></div>
+                </div>
+        
+                <div class="menu-list">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#new-arrivals" class="item-link">new arrivals</a></li>
+                        <li class="menu-item"><a href="#do-nam" class="item-link">đồ nam</a></li>
+                        <li class="menu-item"><a href="#do-nu" class="item-link">đồ nữ</a></li>
+                        <li class="menu-item"><a href="#do-doi" class="item-link">đồ đôi</a></li>
+                        <li class="menu-item"><a href="#ao-khoac" class="item-link">áo khoác</a></li>
+                        <li class="menu-item"><a href="#phu-kien" class="item-link">phụ kiện</a></li>
+                        <li class="menu-item"><a href="#sale-black" class="item-link">sale black friday</a></li>
+                        <li class="menu-item"><a href="#chinh-sach" class="item-link">chính sách</a></li>
+                        <li class="menu-item"><a href="#toto-fanzone" class="item-link">toto fanzone</a></li>
+                    </ul>
+                </div>
+                <label for="sidebar-btn" class="close-mb"><i class="fas fa-times"></i></label>
+            </div>
+        </div>
+    
+        <div class="container grid">
+            <input type="checkbox" class="input-search-pc" id="search-btn-pc-cb">
+            <div class="search-item">
+                <div class="input-search">
+                    <i class="ti-search"></i>
+                    <input type="text" placeholder="Tìm kiếm..." autofocus>
+                    <label for="search-btn-pc-cb"><i class="fas fa-times"></i></label>
+                </div>
+            </div>
+
+            <!-- mobile -->
+            <input type="checkbox" class="input-search-checkbox" id="search-btn-mb-cb">
+            <div class="search-item-mb">
+                
+                <div class="input-search-mb">
+                    <i class="ti-search"></i>
+                    <input type="text" placeholder="Tìm kiếm..." autofocus>
+                    <label for="search-btn-mb-cb"><i class="fas fa-times"></i></label>
+                </div>
+                
+            </div>
+            <div class="slider-show">
+                <div class="slider">
+                    <div class="slides">
+                        <!-- tạo radio -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        
+                    
+    
+                        <!--ảnh trình chiếu -->
+                        <div class="slide first">
+                            <img id="img" onclick="changeImage" src="./image/slide show/slide-1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./image/slide show/slide-2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./image/slide show/slide-3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./image/slide show/slide-4.png" alt="">
+                        </div>
+        
+                        <!-- auto navigation  tự chạy slide -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            
+                        </div>
+                    </div>
+    
+                    <!-- manual navigation click vào radio để chuyển slide-->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        
+                    </div>
+                </div>
+            </div> 
+
+            <div class="content">
+                <div class="banner-main row"  data-aos="fade-up" data-aos-delay="200">
+                    <div class="banner-item col l-6 m-6 c-6">
+                        <a href="#"><img src="./image/banner/Banner Đôi 1.png" alt=""></a>
+                    </div>
+                    <div class="banner-item col l-6 m-6 c-6">
+                        <a href="#"><img src="./image/banner/Banner Đôi 2.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="banner-sp row">
+                    <div class="banner-sp-1 col l-6 m-6 c-12" data-aos="fade-down" data-aos-delay="200">
+                        <a href=""><div class="overlay"></div>
+                            <img src="./image/img-banner/Banner vuông lớn (1) (1).png" alt="">
+                        </a>
+                    </div>
+                    <div class="banner-sp-2 col l-6 m-6 c-12" data-aos="fade-up" data-aos-delay="200">
+                        <div class="row">
+                            <div class="banner-sp-s col l-6 m-6 c-12" >
+                                <a href=""><div class="overlay-2"></div>
+                                    <img src="./image/img-banner/banner-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="banner-sp-s col l-6 m-6 c-12">
+                                <a href=""><div class="overlay-2"></div>
+                                    <img src="./image/img-banner/banner-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="banner-sp-s col l-6 m-6 banner-sp-s-footer c-12">
+                                <a href=""><div class="overlay-2"></div>
+                                    <img src="./image/img-banner/banner-4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="banner-sp-s col l-6 m-6 banner-sp-s-footer c-12">
+                                <a href=""><div class="overlay-2"></div>
+                                    <img src="./image/img-banner/banner-5.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products">
+                    <div class="header row">
+                        <h3 class="heading">new arrivals</h3>
+                        <div class="kt">
+                            <span class="title-litter">
+                                <i class="far fa-circle"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-list row">
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-1/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-1/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-1/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-1/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-1/sp/sp-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">265,000 <span>đ</span></p>
+                                
+                            </div>
+
+                            
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="150">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-2/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-2/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-2/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-2/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">265,000 <span>đ</span></p>
+                               
+                            </div>
+
+                            
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="200">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-3/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-3/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-3/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-3/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-3/sp/sp-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">265,000 <span>đ</span></p>
+                                
+                            </div>
+
+                            
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="250">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-4/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-4/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-4/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">365,000 <span>đ</span></p>
+                                
+                            </div>
+
+                            
+                        </div>
+                        <div class="product-item l-3 m-4 c-4" data-aos="fade-left" data-aos-delay="100">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-5/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-5/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-5/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-5/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">265,000 <span>đ</span></p>
+                            </div>
+
+                            
+                        </div>
+                        <div class="product-item l-3 m-4 c-4 product-sale" data-aos="fade-left" data-aos-delay="150">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-6/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-6/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-6/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-6/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">238,500 <span>đ</span></p>
+                                <p class="price-old">265.000 <span>đ</span></p>
+                            </div>
+
+                            
+                            <div class="product-sale-item">
+                                <p>-10%</p>
+                            </div>
+                        </div>
+                        <div class="product-item l-3 m-4 c-4 product-sale" data-aos="fade-left" data-aos-delay="200">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-7/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-7/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">238,500 <span>đ</span></p>
+                                <p class="price-old">265.000 <span>đ</span></p>
+                            </div>
+
+                            
+                            <div class="product-sale-item">
+                                <p>-10%</p>
+                            </div>
+                        </div>
+                        <div class="product-item l-3 m-4 c-4 product-sale" data-aos="fade-left" data-aos-delay="250">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-8/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-8/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-8/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-8/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">238,500 <span>đ</span></p>
+                                <p class="price-old">265.000 <span>đ</span></p>
+                            </div>
+
+                           
+                            <div class="product-sale-item">
+                                <p>-10%</p>
+                            </div>
+                        </div>
+                        <div class="product-item l-3 m-4 c-4 product-sale" data-aos="fade-left" data-aos-delay="100">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-9/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-9/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-9/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-9/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-9/sp/sp-4.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-9/sp/sp-5.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">238,500 <span>đ</span></p>
+                                <p class="price-old">265.000 <span>đ</span></p>
+                            </div>
+
+                            
+                            <div class="product-sale-item">
+                                <p>-10%</p>
+                            </div>
+                        </div>
+                        <div class="product-item l-3 m-4 c-4 product-sale" data-aos="fade-left" data-aos-delay="250">
+                            <a href="">
+                                <div class="image">
+                                    <img src="./image/product-10/dai-dien.jpg" alt="">
+                                    <div class="product-sp">
+                                        <div class="product-sp1">
+                                            <img src="./image/product-10/sp/sp-1.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-10/sp/sp-2.jpg" alt="">
+                                        </div>
+                                        <div class="product-sp1">
+                                            <img src="./image/product-10/sp/sp-3.jpg" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="price-list">
+                                <p class="price-new">238,500 <span>đ</span></p>
+                                <p class="price-old">265.000 <span>đ</span></p>
+                            </div>
+
+                            
+                            <div class="product-sale-item">
+                                <p>-10%</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="banner-menu row" data-aos="fade-up"
+                data-aos-duration="500">
+                    <img src="./image/banner-menu/bannermenu.jpg" alt="">
+                </div>
+
+                <div class="tintuc row">
+                    <p class="heading">tin tức mỗi ngày</p>
+                </div>
+
+                 <div class="slide-show-2 grid">
+                    <div class="row">
+                        <div class="slide-show-list col l-8">
+                            <div class="slider-show-item">
+                                <p class="slick-arrow slick-prev">
+                                    <img src="./image/nut/arrow-icon.png" class="icon-prev" alt="">
+                                </p>
+
+                                <div class="banner-img">
+                                    <div class="banner-img-item" stt="0">
+                                        <img src="./image/slide-show-2/slide-1.jpg" class="slider-img" alt="">
+                                        <div class="chi-tiet">
+                                            <span>xu hướng thời trang</span>
+                                            <p><a href="#">Đố bạn diện quần jean nam cùng áo gì đẹp nhất</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="banner-img-item" stt="1" style="display: none;">
+                                        <img src="./image/slide-show-2/slide-2.jpg" class="slider-img" alt="">
+                                        <div class="chi-tiet">
+                                            <span>xu hướng thời trang</span>
+                                            <p><a href="#">Bật mí 4 kiểu áo khoác nam “không thể thiếu” trong mùa lạnh này</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="banner-img-item" stt="2" style="display: none;">
+                                        <img src="./image/slide-show-2/slide-3.jpg" class="slider-img" alt="">
+                                        <div class="chi-tiet">
+                                            <span>xu hướng thời trang</span>
+                                            <p><a href="#">Phối đồ cực chuẩn cùng quần jean đen cho các chàng</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="banner-img-item" stt="3" style="display: none;">
+                                        <img src="./image/slide-show-2/slide-4.jpg" class="slider-img" alt="">
+                                        <div class="chi-tiet">
+                                            <span>xu hướng thời trang</span>
+                                            <p><a href="#">Xu hướng mix đồ cùng quần jogger nam chuẩn đẹp cho nam</a></p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <p class="slick-arrow slick-next">
+                                    <img src="./image/nut/arrow-icon.png" class="icon-next" alt="">
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="slide-cmt col l-4">
+                            <h3>bài viết xem nhiều</h3>
+                            <div class="slide-cmt-list row">
+                                <div class="slide-cmt-item">
+                                    <div class="image-cmt l-4">
+                                        <img src="./image/slide-show-2/slide-cmt-1.jpg" alt="">
+                                    </div>
+                                        
+                                    <div class="slide-cmt-content l-8">
+                                        <a href="#" title="[BLACK FRIDAY] TOTOSHOP TUNG NGÀN DEAL SỐC: ĐỒNG GIÁ 99K | SALE ALL ITEMS LÊN ĐẾN 50%" 
+                                        class="title">
+                                            [BLACK FRIDAY] TOTOSHOP TUNG NGÀN DEAL SỐC: ĐỒNG GIÁ 99K | SALE ALL ITEMS LÊN ĐẾN 50%</a>
+                                        <span class="date"> 08-11-2021</span>
+                                        <a href="#" title="Tin Khuyến Mãi" class="name-cate">Tin Khuyến Mãi</a>
+                                    </div>
+                                </div>
+                                <div class="slide-cmt-item">
+                                    <div class="image-cmt l-4">
+                                        <img src="./image/slide-show-2/slide-cmt-2.jpg" alt="">
+                                    </div>
+                                        
+                                    <div class="slide-cmt-content l-8">
+                                        <a href="#" title="[BLACK FRIDAY] TOTOSHOP TUNG NGÀN DEAL SỐC: ĐỒNG GIÁ 99K | SALE ALL ITEMS LÊN ĐẾN 50%" 
+                                        class="title">
+                                        TOTOSHOP TRÌNH LÀNG MINIGAME  BẮT MA RINH QUÀ - MỪNG HALLOWEEN CỰC LỚN</a>
+                                        <span class="date"> 24-10-2021</span>
+                                        <a href="#" title="Tin Khuyến Mãi" class="name-cate">Tin Khuyến Mãi</a>
+                                    </div>
+                                </div>
+                                <div class="slide-cmt-item">
+                                    <div class="image-cmt l-4">
+                                        <img src="./image/slide-show-2/slide-cmt-3.jpg" alt="">
+                                    </div>
+                                        
+                                    <div class="slide-cmt-content l-8">
+                                        <a href="#" title="[BLACK FRIDAY] TOTOSHOP TUNG NGÀN DEAL SỐC: ĐỒNG GIÁ 99K | SALE ALL ITEMS LÊN ĐẾN 50%" 
+                                        class="title">
+                                        DEAL VÔ VÀN - VÌ NÀNG XỨNG ĐÁNG</a>
+                                        <span class="date"> 16-10-2021</span>
+                                        <a href="#" title="Tin Khuyến Mãi" class="name-cate">Tin Khuyến Mãi</a>
+                                    </div>
+                                </div>
+                                <div class="slide-cmt-item">
+                                    <div class="image-cmt l-4">
+                                        <img src="./image/slide-show-2/slide-cmt-4.jpg" alt="">
+                                    </div>
+                                        
+                                    <div class="slide-cmt-content l-8">
+                                        <a href="#" title="[BLACK FRIDAY] TOTOSHOP TUNG NGÀN DEAL SỐC: ĐỒNG GIÁ 99K | SALE ALL ITEMS LÊN ĐẾN 50%" 
+                                        class="title">
+                                        Hè Mở Deal Hời – Mời Bạn Ghé Chơi Từ 14/05 – 23/05 Cùng TOTOSHOP</a>
+                                        <span class="date"> 13-05-2021</span>
+                                        <a href="#" title="Tin Khuyến Mãi" class="name-cate">Tin Khuyến Mãi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script> -->
+    <script src="./js/animation.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

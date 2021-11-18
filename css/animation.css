@@ -1,0 +1,17 @@
+.fade-up-down{
+    visibility: hidden;
+}
+.up-down{
+    animation: upDown linear 1s;
+    visibility: visible;
+}
+@keyframes upDown {
+    0%{
+        transform: translateY(70%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
